@@ -20,7 +20,7 @@ void main()
     menu();
 }
 
-void menu()
+void menu() 
 {
     char options;
     system("clear");

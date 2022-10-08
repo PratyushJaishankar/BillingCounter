@@ -26,7 +26,7 @@ void menu()
     char options;
     system("clear");
     printf("\n\n\t\t\t\t\t\t\t\tPESU MART\n\n\n");
-    printf("MAIN MENU:\n1.Calculate Bills\n2.Add Items\n3.Edit Items\n4.Delete Items\n5.Display All\n6.Exit\n\n");
+    printf("MAIN MENU:\n1.Calculate Bills\n2.Add Items to Inventory\n3.Edit Items in Inventory\n4.Delete Items in Inventory\n5.Display all items in the Inventory\n6.Exit\n\n");
     printf("Choose An Option:");
     scanf(" %c", &options);
     switch (options)
@@ -53,7 +53,7 @@ void menu()
         exit(1);
         break;
     default:
-        printf("\n\nINVALID OPTION!");
+        printf("\n\nINVALID OPTION! Please Try again!!");
         menu();
     }
 }
